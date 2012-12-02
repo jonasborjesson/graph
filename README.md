@@ -81,7 +81,16 @@ This library follows the [visitor pattern](http://en.wikipedia.org/wiki/Visitor_
 
 ## Contribute
 
-Clone it, unit test, code, document, send pull request and that's pretty much it. Note, I will not accept pull requests without unit tests and proper documentation.
+This library is Maven based so you will need to have maven installed. Once installed, simply build it like so:
+
+```
+cd modules
+mvn clean install
+```
+
+and that's it.
+
+Contributions are more than welcome and if you do decide to contribute please make sure to add unit tests and appropriate documentation.
 
 
 ## Other Graph Libraries

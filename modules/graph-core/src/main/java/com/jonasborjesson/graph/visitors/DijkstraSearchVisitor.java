@@ -199,7 +199,8 @@ public final class DijkstraSearchVisitor<T extends Vertex<T>> implements SearchV
          * Helper method to nullify the state stored on the {@link Vertex}
          */
         public void clear() {
-            this.vertex.setInfo(this.previousInfo);
+            // this.vertex.setInfo(this.previousInfo);
+            this.vertex.setInfo(null);
         }
 
         @Override
